@@ -1,7 +1,7 @@
 {
   "name": "@gamariverib/map-value-to-json",
   "version": "1.0.0",
-  "description": "",
+  "description": "Helper function for converting a MapValue object to a JSON object. The events trigger by Firestore in Google Cloud Functions serve the documents using the MapValue type.",
   "main": "index.js",
   "engines": {
     "node": ">=10.0.0",
@@ -14,5 +14,18 @@
   "author": "José Gamaliel Rivera Ibarra <gama.rivera@gmail.com> (https://gamarivera.dev)",
   "devDependencies": {
     "@types/node": "^18.7.18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GamaRiverib/map-value-to-json.git"
+  },
+  "keywords": [
+    "Firestore",
+    "Cloud Function",
+    "MapValue"
+  ],
+  "bugs": {
+    "url": "https://github.com/GamaRiverib/map-value-to-json/issues"
+  },
+  "homepage": "https://github.com/GamaRiverib/map-value-to-json#readme"
 }
